@@ -1,38 +1,521 @@
-.App {
+/* Css de Websseller.com */
+
+body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#cabecera {
+  background: #022d7c;
+  border: 1px solid #3c77bb;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#menu {
+  background: #022d7c;
+  padding: 0px;
+  text-align: end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#menu a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+#menu li {
+  display: inline-block;
+  padding: 3px;
+  font: bolder 18px verdana;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 30em;
+}
+/*Intento darle un efecto de hover a los elementos que componen la navegacion pero ni idea  */
+
+li:hover {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* estilos div [Que ofrecemos]  */
+
+#encabezado {
+  margin: auto;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.Que_ofrecemos{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.Que_ofrecemos p {
+  font-size: 16px;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin: 15px;
+}
+
+.Que_ofrecemos h3 {
+  font-size: 22px;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+.servicios .leermas {
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  margin: 20px;
+  /*espacio alrededor texto*/
+  background-color: #5473a1;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: capitalize;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 30px;
+  /*bordes redondos*/
+}
+
+.blogs .leermas {
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  margin: 20px;
+  /*espacio alrededor texto*/
+  background-color: #5473a1;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: capitalize;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 30px;
+  /*bordes redondos*/
+}
+
+.alojamiento .leermas {
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  margin: 20px;
+  /*espacio alrededor texto*/
+  background-color: #5473a1;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: capitalize;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 30px;
+  /*bordes redondos*/
+}
+
+.Que_ofrecemos a:hover {
+  background-color: blue;
+}
+
+.servicios {
+  float: left;
+  width: 15%;
+  background-color: white;
+}
+
+.alojamiento {
+  float: left;
+  width: 15%;
+  background-color: white;
+}
+
+.blogs {
+  float: left;
+  width: 15%;
+  background-color: white;
+}
+
+.servicios,
+.alojamiento,
+.blogs {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 10px;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#servicios_ofrecidos{
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+#servicios_ofrecidos_XL {
+  background-color: whitesmoke;
+  padding-top: 1px;
+   
+}
+
+#servicios_ofrecidos_XL h2{
+ font-size: xx-large;
+ color: black;
+
+}
+
+#alojamiento_web,
+#multilenguaje,
+#marqueting,
+#seo {
+  color: blue;
+  padding: 5px;
+  padding-bottom: 35px;
+  width: 18%;
+  margin: 2%;
+  margin-bottom: 60px;
+  background-color: white;
+}
+
+#alojamiento_web .leermas {
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  margin: 20px;
+  /*espacio alrededor texto*/
+  background-color: #5473a1;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: capitalize;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 30px;
+  /*bordes redondos*/
+}
+
+#multilenguaje .leermas {
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  margin: 20px;
+  /*espacio alrededor texto*/
+  background-color: #5473a1;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: capitalize;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 30px;
+  /*bordes redondos*/
+}
+
+#marqueting .leermas {
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  margin: 20px;
+  /*espacio alrededor texto*/
+  background-color: #5473a1;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: capitalize;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 30px;
+  /*bordes redondos*/
+}
+
+#seo .leermas {
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  margin: 20px;
+  /*espacio alrededor texto*/
+  background-color: #5473a1;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: capitalize;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 30px;
+  /*bordes redondos*/
+}
+
+
+/*section topicos */
+
+#temas_webs {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  vertical-align: top;
+}
+
+.caja1 {
+  color: blue;
+  padding: 5px;
+  padding-bottom: 35px;
+  width: 18%;
+  margin: 2%;
+  margin-bottom: 20px;
+  background-color: white;
+  float: left;
+}
+
+.caja2 {
+  color: blue;
+  padding: 5px;
+  padding-bottom: 35px;
+  width: 18%;
+  margin: 2%;
+  margin-bottom: 20px;
+  background-color: white;
+  float: left;
+}
+
+.caja3 {
+  color: blue;
+  padding: 5px;
+  padding-bottom: 35px;
+  width: 18%;
+  margin: 2%;
+  margin-bottom: 20px;
+  background-color: white;
+  float: left;
+}
+
+.topicos #salud,
+#bar,
+#influencer {
+  float: left;
+  width: 30%;
+  background-color: darkblue;
+}
+
+
+/*   PLANES DE DESARROLLO    */
+
+#planes_de_desarrollo {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+#basico,
+#baja-inversion,
+#profesional,
+#de-lujo {
+  color: blue;
+  padding: 5px;
+  padding-bottom: 35px;
+  width: 18%;
+  margin: 2%;
+  margin-bottom: 60px;
+  background-color: white;
+  float: left;
+}
+
+/*  Portafolio  */
+
+.portafolio{
+background-color: white;
+float: left;
+display: flex;
+justify-content: center;
+width: 100%;
+
+}
+
+/* Banner de tecnologias */
+
+/* Consultas gratis */
+#consultas_gratis {
+  background-image: url("/public/imagenes/4.PNG");
+  background-repeat: no-repeat;
+  width: 100%;
+  
+}
+
+
+/* Footer Css */
+
+#footer {
+  background-color: whitesmoke;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+}
+
+#footer p {
+  color: black;
+  font-size: 20px;
+}
+
+#footer ul {
+  color: black;
+  font-size: 20px;
+}
+
+#footer .webs {
+  color: blue;
+}
+
+article {
+  background: #f7f8f9;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+article footer {
+  text-align: right;
+}
+
+.telefono {
+  top: 200px;
+  padding: 10px;
+  margin: 50px auto;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  display: inline-block;
+  height: auto;
+}
+
+.formulario {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.contact_form {
+  width: 500px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #303561;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #2743be;
+  border-color: #2743be;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: #ab4493;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #cc2121;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
 }
