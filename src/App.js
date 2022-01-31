@@ -250,6 +250,8 @@ function App() {
 
       {/* Footer */}
 
+      {/* Footer css now */}
+
       <footer id="footer">
         <nav>
           <ul>
