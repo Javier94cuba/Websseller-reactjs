@@ -21,12 +21,29 @@ function App() {
             <a href="http://www.facebook.com"><img width="16px" height="16px" src="iconos/bandera de reino unido.png" alt="{texto del alt}"></img></a>
           </ul>
         </nav>
+
+        <div className="header_max">
+
+          <div className="header_estatico" >
+            <h1> SEO, onlyne payment <br />
+              methods and others</h1>
+            <h4>Be innovate in your field and earn a clear <br />
+              advantage over your competitors, whith an outstanding<br />
+              website and clear ideas.</h4>
+            <button className="services_button">Services</button>
+            <button className="contact_button">Contact us</button>
+          </div>
+
+          <div className="image"></div>
+          
+        </div>
+
       </header>
 
 
 
       {/* // Que ofrecemos */}
-      <h1 id="encabezado">Que ofrecemos</h1>
+      <h1 id="encabezado">Que ofrecemos?</h1>
 
       <div className="Que_ofrecemos">
 
@@ -40,7 +57,7 @@ function App() {
         <div className="blogs">
 
           <h3>Blogs</h3>
-          <p>Un blog que mejor exponga sus ideas y de seguimiento a esos subscriptores, que esperan ansiosos ese contenido </p>
+          <p>Un blog que mejor exponga sus ideas y de seguimiento a esos subscriptores, que esperan ese contenido </p>
           <a href="google.com" className="leermas" >Leer más</a>
         </div>
 
@@ -57,7 +74,7 @@ function App() {
 
       <div id="servicios_ofrecidos_XL">
 
-        <h2>Qué incluyen nuestros servicios</h2>
+        <h2>Qué incluyen nuestros servicios?</h2>
         <h3>Somos un grupo de desarrolladores web creado para dar publicidad a tu marca, donde quieras que estes</h3>
 
         <div id="servicios_ofrecidos">
@@ -70,7 +87,7 @@ function App() {
           </div>
 
           <div id="marqueting">
-            <h3>Estrategias de marqueting</h3>
+            <h3>Marqueting</h3>
             <p>Una estrategia de mercadeo es la creacion de acciones o tacticas que lleven al objetivo fundamental de incrementar
               las ventas y lograr una ventaja competitiva sostenible.</p>
             <a href="google.com" className="leermas">Leer más</a>
@@ -80,7 +97,7 @@ function App() {
           <div id="multilenguaje">
             <h3>Multilenguaje</h3>
             <p>Un sitio web multilenguaje, impacta a la vez a miles de personas en todo el mundo y hace crecer su negocio a
-              traves de internet teniendo la posibilidad de captar mas clientes
+              traves de internet teniendo la posibilidad de captar mas.
             </p>
             <a href="google.com" className="leermas">Leer más</a>
           </div>
@@ -96,7 +113,7 @@ function App() {
       </div>
 
       {/* Tipos de sitios web o topicos con los que trabajamos  */}
-      <h2> Algunos de los temas con que trabajamos:</h2>
+      <h2 className="temas_trabajados"> Algunos de los temas con que trabajamos:</h2>
       <div id="temas_webs">
 
         <div className="caja1 ">
@@ -169,40 +186,43 @@ function App() {
 
       {/* Planes de desarrollo */}
 
-      <h2>Nuestros planes de desarrollo</h2>
+      <h2 className="planes_desarrollo_xl">Nuestros planes de desarrollo</h2>
       <div id="planes_de_desarrollo">
 
         <article id="basico">
-          <h3>Básico</h3>
-          <p> $499.99 <small>15-20 días</small> </p>
-          <p>  Hasta 10 páginas <br /> Redes sociales <br /> Optimisación SEO </p>
-            <a href="asd.com "> Más información del plan </a>
+          <h1>Básico</h1>
+          <p className="precio_xl"> $499<strong>99</strong> <small>15-20 días</small> </p>
+          <p>  Hasta 10 páginas <br /><br /> Redes sociales <br /><br /> Optimisación SEO </p>
+          <button className="boton_basico">Mas informacion</button>
         </article>
 
         <article id="baja-inversion">
 
-          <h3>Baja inversión</h3>
-          <p> $649.99 <small>15-20 días</small> </p>
-          <p> Hasta 15 paginas <br /> Redes sociales <br /> Localización en Google Maps</p>
-          <a href="asd.com "> Más información del plan </a>
+          <h1>Baja inversión</h1>
+          
+          <p className="precio_xl"> $649<strong>99</strong> <small>15-20 días</small></p> 
+          <p> Hasta 15 paginas <br /><br /> Redes sociales <br /><br /> Localización en Google Maps</p>
+          <button className="boton_basico">Mas informacion</button>
 
         </article>
 
         <article id="profesional">
-          <h3>Profesional </h3>
-          <p> $899.99 <small>15-20 días</small> </p>
-          <p>Secciones indefinidas <br /> Redes sociales <br /> Hasta 2 idiomas</p>
-          <a href="asd.com "> Más información del plan </a>
+          <h1>Profesional </h1>
+         
+          <p className="precio_xl"> $899<strong>99</strong> <small>15-20 días</small> </p>
+          <p>Secciones indefinidas <br /><br /> Redes sociales <br /><br /> Hasta 2 idiomas</p>
+          <button className="boton_profesional">Mejor oferta</button>
 
         </article>
 
         <article id="de-lujo">
-          <h3>De Lujo </h3>
-          <p> $1099.99 <small>15-20 días</small> </p>
+          <h1>De Lujo </h1>
+          
+          <p className="precio_xl"> $1099<strong>99</strong> <small>15-20 días</small> </p>
           <p>
-            El mejor <br /> Sitio Web creado <br /> por nosotros
+            El mejor <br /><br /> Sitio Web creado <br /><br /> por nosotros
           </p>
-          <a href="asd.com "> Más información del plan </a>
+          <button className="boton_basico">Mas informacion</button>
 
         </article>
 
@@ -212,54 +232,56 @@ function App() {
       {/* Portafolio */}
 
 
-      <h2>Portafolio</h2>
+      <h1>Portafolio</h1>
       <h3>Proyectos mas recientes</h3>
-      
+
       <div className="portafolio">
-        
-
         <article>
-          <img className='proyecto1' src="/imagenes/WS.jpg"></img>
-          <p> Websseller.com <br /> BY websseller - Categoria: Creacion de sitios web, Software </p>
+          <div className="portafolio1"></div>
+          <p> websseller.com <br /> BY websseller - Categoria: Creacion de sitios web, Software </p>
         </article>
 
         <article>
-          <img className='proyecto2' src="/imagenes/WS.jpg"></img>
-          <p> Websseller.com <br /> BY websseller - Categoria: Creacion de sitios web, Software </p>
+        <div className="portafolio2"></div>
+          <p> clinicasHispanas.com <br /> BY websseller - Categoria: Clinicas, servicios medicos </p>
         </article>
 
         <article>
-          <img className='proyecto3' src="/imagenes/WS.jpg"></img>
-          <p> Websseller.com <br /> BY websseller - Categoria: Creacion de sitios web, Software </p>
+        <div className="portafolio3"></div>
+          <p> havanahousesportsbar.com <br /> BY websseller - Categoria: Bar de deportes, bares </p>
         </article>
 
       </div>
+  
+       <button className="proyecto_reciente">Proyectos recientes</button>
 
-
-      <div id="banner_tecnologias ">
-      <img className="proyecto3" src="/imagenes/ssl-encryption.png"></img>
-      <img className='proyecto3' src="/imagenes/ssl-encryption.png"></img>
-      <img className='proyecto3' src="/imagenes/ssl-encryption.png"></img>
+      <div className="banner_tecnologias">
+        <div className="proyecto1" ></div>
+        <div className="proyecto2" ></div>
+        <div className="proyecto3"></div>
+        <div className="proyecto4"></div>
+        
       </div>
 
       <div id="consultas_gratis">
-        <h2> Realizamos consultas gratis para debatir ideas sobre su sitio web que tiene en mente</h2>
-        <h3> En que aspectos hacer enfasis para mejorar resultados, mostrarnos resultados antes de recibir pagos y vistas previas, de la visualizacion de su sitio. </h3>
-        <button className="bt1"> Contactenos </button>
+        <h2> Realizamos consultas gratis para <br /> debatir ideas sobre su sitio <br />  web que tiene en mente</h2>
+        <h3> En que aspectos hacer enfasis para <br /> mejorar resultados, mostrarnos resultados <br /> antes de recibir pagos y vistas previas,<br /> de la visualizacion de su sitio. </h3>
+        <button className="boton_consultas"> Contactenos </button>
       </div>
 
       {/* Footer */}
 
       <footer id="footer">
+
         <nav>
           <ul>
-            Inicio <br /> Que ofrecemos <br /> Portafolio <br /> Adquiere un sitio web <br /> Quienes somos <br /> Contáctenos
+            Inicio &nbsp;&nbsp;&nbsp;  Que ofrecemos &nbsp;&nbsp;&nbsp;   Portafolio &nbsp;&nbsp;&nbsp;   Adquiere un sitio web &nbsp;&nbsp;&nbsp;   Quienes somos &nbsp;&nbsp;&nbsp;   Contáctenos
           </ul>
         </nav>
 
         <p> @Copyright 2021 | Todos los derechos reservados | Powered by <span className="webs ">Webss-Seller</span> </p>
-        <a href="http://www.facebook.com "><img height="40px " src="/iconos/icono de instagram.png " alt="{texto del alt}"></img></a>
-        <a href="http://www.facebook.com "><img height="40px " src="/iconos/icono de facebook.png " alt="{texto del alt}"></img></a>
+        <a href="http://www.facebook.com "><img height="30px " src="/iconos/icono de instagram.png " alt="{texto del alt}"></img></a>
+        <a href="http://www.facebook.com "><img height="30px " src="/iconos/icono de facebook.png " alt="{texto del alt}"></img></a>
       </footer>
 
 
