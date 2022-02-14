@@ -19,8 +19,8 @@ const obj_portafolio = [
     image: "portafolio3",
     nombre: "havanahousesportsbar.com",
     info: "BY websseller - Categoria: Bar de deportes, bares",
-  }
-]
+  },
+];
 
 export default function Portafolio() {
   return (
@@ -29,12 +29,16 @@ export default function Portafolio() {
       <h3>Proyectos mas recientes</h3>
 
       <div className="portafolio">
-        {
-        obj_portafolio.map((props) => <Obj_Portafolio key={props.id} image={props.image} nombre={props.nombre} info={props.info} />)
-        }
-        
+        {obj_portafolio.map((props) => (
+          <Obj_Portafolio
+            key={props.id}
+            image={props.image}
+            nombre={props.nombre}
+            info={props.info}
+          />
+        ))}
       </div>
       <button className="proyecto_reciente">Proyectos recientes</button>
     </div>
-  )
+  );
 }
