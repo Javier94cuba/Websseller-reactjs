@@ -471,25 +471,28 @@ box-shadow: 0 0 6px 6px rgb(0 0 0 / 8%);
   align-items: center;
 }
 
+.articulo_portafolio{
+  width: 30%;
+  padding-bottom: 5%;
+}
+
 .portafolio1 {
   background-image: url("/public/imagenes/1.PNG");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 17em;
-  margin-left: 7em;
-  margin-right: 7em;
-  padding-bottom: 2.7em;
-  min-height: 6em;
-  min-width: 6em;
-
+  width: 100%;
+  padding-bottom: 20%;
+  margin-right: 80px;
+  min-height: 8em;
+  min-width: 8em;
 }
 
 .portafolio2 {
   background-image: url("/public/imagenes/3.PNG");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 16em;
-  padding-bottom: 0.8;
+  width: 100%;
+  padding-bottom: 20%;
   margin-right: 80px;
   min-height: 8em;
   min-width: 8em;
@@ -500,10 +503,11 @@ box-shadow: 0 0 6px 6px rgb(0 0 0 / 8%);
   background-image: url("/public/imagenes/2.PNG");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 20em;
-  padding-bottom: 3em;
-  min-height: 6em;
-  min-width: 6em;
+  width: 100%;
+  padding-bottom: 20%;
+  margin-right: 80px;
+  min-height: 8em;
+  min-width: 8em;
 
 }
 
