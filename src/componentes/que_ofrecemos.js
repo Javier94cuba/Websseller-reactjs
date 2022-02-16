@@ -1,4 +1,5 @@
 import React from "react";
+import "./que_ofrecemos.css";
 import Obj_ofrecemos from "../componentes_heredados/obj_ofrecemos";
 
 const Obj_ofrecemosdata = [

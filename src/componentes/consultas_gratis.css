@@ -1,0 +1,28 @@
+#consultas_gratis {
+    background-image: url("/public/imagenes/Laptop-with-Coffee-1080-1080x602.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding: 5%;
+
+}
+
+#consultas_gratis h2 {
+    color: white;
+    font-size: 28px;
+}
+
+#consultas_gratis h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.boton_consultas {
+    color: white;
+    width: 160px;
+    background-color: #ffa737;
+    border-color: #ffa737;
+    border-color: #ffa737;
+    padding: 13px 29px;
+    line-height: 17px;
+    font-size: 14px;
+}

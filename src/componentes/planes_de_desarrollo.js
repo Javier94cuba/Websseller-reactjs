@@ -1,4 +1,5 @@
 import React from "react";
+import "./planes_de_desarrollo.css";
 import Obj_planes from "../componentes_heredados/obj_planes";
 
 const obj_planes = [
@@ -13,6 +14,7 @@ const obj_planes = [
     sec3: "Optimisación SEO",
     leer: "Mas informacion",
     class: "boton_basico",
+    article: "basico",
   },
 
   {
@@ -26,6 +28,7 @@ const obj_planes = [
     sec3: "Localización en Google Maps",
     leer: "Mas informacion",
     class: "boton_basico",
+    article: "baja-inversion",
   },
 
   {
@@ -39,6 +42,7 @@ const obj_planes = [
     sec3: "Hasta 2 idiomas",
     leer: "Mejor oferta",
     class: "boton_profesional",
+    article: "profesional",
   },
 
   {
@@ -52,6 +56,7 @@ const obj_planes = [
     sec3: "por nosotros",
     leer: "Mas informacion",
     class: "boton_basico",
+    article: "de-lujo",
   },
 ];
 
@@ -73,6 +78,7 @@ export default function Planes_de_desarrollo() {
             sec3={props.sec3}
             leer={props.leer}
             class={props.class}
+            article={props.article}
           />
         ))}
       </div>

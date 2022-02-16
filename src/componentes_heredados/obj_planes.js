@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Obj_planes(props) {
   return (
-    <article id="basico">
+    <article id={props.article}>
       <h1>{props.h1}</h1>
       <p className="precio_xl">
         {" "}

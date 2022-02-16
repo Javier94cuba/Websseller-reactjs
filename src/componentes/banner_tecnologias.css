@@ -1,0 +1,49 @@
+.banner_tecnologias {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.proyecto1 {
+    background-image: url("/public/imagenes/wordpress.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+    margin-left: 6em;
+    width: 17em;
+    padding-bottom: 5em;
+    min-height: 6em;
+    min-width: 6em;
+}
+
+.proyecto2 {
+    background-image: url("/public/imagenes/ssl-encryption.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+    margin-left: 6em;
+    width: 17em;
+
+}
+
+.proyecto3 {
+    background-image: url("/public/imagenes/woocommerce.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+    margin-left: 6em;
+    width: 15em;
+
+}
+
+.proyecto4 {
+    background-image: url("/public/imagenes/html.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+    margin-left: 6em;
+    width: 12em;
+
+}

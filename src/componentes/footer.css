@@ -1,0 +1,38 @@
+.menu_footer {
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+
+/* Footer Css */
+
+#footer {
+    background-color: whitesmoke;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+#footer p {
+    color: black;
+    font-size: 13px;
+}
+
+#footer ul {
+    color: black;
+    font-size: 15px;
+}
+
+#footer .webs {
+    color: blue;
+}
+
+article {
+    background: #f7f8f9;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+}

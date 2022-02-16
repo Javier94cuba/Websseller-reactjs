@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 
 export default function Header() {
   return (
@@ -25,16 +26,18 @@ export default function Header() {
           </li>
           <a href="http://www.facebook.com">
             <img
-              width="16px"
-              height="16px"
+              className="spain"
+              width="18px"
+              height="18px"
               src="iconos/banderda de españa.png"
               alt="{texto del alt}"
             ></img>
           </a>
           <a href="http://www.facebook.com">
             <img
-              width="16px"
-              height="16px"
+              className="england"
+              width="18px"
+              height="18px"
               src="iconos/bandera de reino unido.png"
               alt="{texto del alt}"
             ></img>

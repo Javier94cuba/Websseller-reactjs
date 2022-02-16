@@ -1,0 +1,70 @@
+#temas_webs {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+
+}
+
+.temas_trabajados {
+    font-size: 30px;
+}
+
+.caja1 {
+    color: #202020;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 28%;
+    margin-bottom: 10px;
+    background-color: white;
+    float: left;
+    margin-right: 25px;
+}
+
+.caja1 p {
+    color: #5d5f64;
+    font-size: 17px;
+}
+
+.caja2 p {
+    color: #5d5f64;
+    font-size: 17px;
+}
+
+.caja3 p {
+    color: #5d5f64;
+    font-size: 17px;
+}
+
+.caja2 {
+    color: #202020;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 28%;
+    margin-bottom: 10px;
+    background-color: white;
+    float: left;
+    margin-right: 25px;
+}
+
+.caja3 {
+    color: #202020;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 28%;
+    margin-bottom: 10px;
+    background-color: white;
+    float: left;
+    margin-right: 25px;
+}
+
+.topicos #salud,
+#bar,
+#influencer {
+    float: left;
+    width: 30%;
+    background-color: darkblue;
+}

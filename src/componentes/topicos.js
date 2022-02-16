@@ -1,4 +1,5 @@
 import React from "react";
+import "./topicos.css";
 import Obj_topicos from "../componentes_heredados/obj_topicos";
 
 const Data1 = [

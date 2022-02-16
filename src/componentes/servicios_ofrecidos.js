@@ -1,4 +1,5 @@
 import React from "react";
+import "./servicios_ofrecidos.css";
 import Obj_servicios_ofrecidos from "../componentes_heredados/obj_servicios_ofrecidos";
 
 const Obj_data = [

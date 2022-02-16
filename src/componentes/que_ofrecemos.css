@@ -1,0 +1,62 @@
+#encabezado {
+  margin: auto;
+  color: #202020;
+  background-color: white;
+  padding-top: 70px;
+  /* font-size: 2.5em; */
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  letter-spacing: -1px;
+  font-style: normal;
+  background-color: whitesmoke;
+}
+
+.Que_ofrecemos {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding-bottom: 40px;
+}
+
+.Que_ofrecemos p {
+  font-size: 16px;
+  color: #5d5d5d;
+  padding-bottom: 15px;
+  margin: 15px;
+}
+
+.Que_ofrecemos h3 {
+  font-size: 29px;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.servicios .leermas {
+  padding: 5px;
+  font-size: 18px;
+  margin: 20px;
+  color: #ffa737;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.blogs .leermas {
+  padding: 5px;
+  font-size: 18px;
+  margin: 20px;
+  color: #ffa737;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.alojamiento .leermas {
+  padding: 5px;
+  font-size: 18px;
+  margin: 20px;
+  color: #ffa737;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Helvetica', sans-serif;
+}

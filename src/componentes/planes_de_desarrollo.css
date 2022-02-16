@@ -1,0 +1,103 @@
+ #planes_de_desarrollo {
+     background-color: whitesmoke;
+     width: 100%;
+     justify-content: center;
+     color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+
+ .planes_desarrollo_xl {
+     background-color: white;
+     margin: 0px;
+     padding-top: 20px;
+     font-size: 30px;
+     font-weight: 700;
+     color: #000000;
+ }
+
+ #basico, #baja-inversion, #profesional, #de-lujo {
+     box-shadow: 0 0 6px 6px rgb(0 0 0 / 8%);
+ }
+
+ #planes_de_desarrollo h1 {
+     color: #202020;
+     box-shadow: gray;
+ }
+
+ #planes_de_desarrollo p {
+     color: gray;
+     font-size: 18px;
+ }
+
+ #planes_de_desarrollo .precio_xl {
+     color: #607afe;
+     font-size: 35px;
+     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+     line-height: 1.3;
+     font-weight: 700;
+     letter-spacing: -1px;
+     font-style: normal;
+ }
+
+ #planes_de_desarrollo small {
+     color: gray;
+     font-size: 10px;
+ }
+
+ #planes_de_desarrollo strong {
+     color: #607afe;
+     font-size: 12px;
+     position: absolute;
+ }
+
+
+
+ .boton_basico {
+     background-color: rgba(255, 255, 255, 0);
+     border-color: gray;
+     color: rgb(82, 77, 77);
+     width: 190px;
+     border-radius: 20px;
+     border-style: solid;
+     font-family: Source Sans Pro;
+     font-style: normal;
+     font-weight: 700;
+
+ }
+
+ .boton_profesional {
+     background-color: #ffa737;
+     border-color: #ffa737;
+     color: white;
+     width: 150px;
+     border-radius: 20px;
+     border-style: solid;
+     font-family: Source Sans Pro;
+     font-style: normal;
+     font-weight: 700;
+ }
+
+ #basico,
+ #baja-inversion,
+ #profesional,
+ #de-lujo {
+     color: blue;
+     padding-bottom: 15px;
+     width: 20%;
+     margin: 1%;
+     margin-bottom: 60px;
+     margin-top: 40px;
+     background-color: white;
+     float: left;
+ }
+
+ @media screen and (max-width: 600px) {
+     #basico, #baja-inversion, #profesional, #de-lujo {
+         width: 80%;
+         padding: 0px;
+         margin-left: 35px;
+
+
+     }
+ }

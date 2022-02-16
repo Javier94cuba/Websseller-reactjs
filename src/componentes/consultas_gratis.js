@@ -1,4 +1,5 @@
 import React from "react";
+import "./consultas_gratis.css";
 
 export default function Consultas_gratis() {
   return (

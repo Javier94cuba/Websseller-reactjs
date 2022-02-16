@@ -1,4 +1,5 @@
 import React from "react";
+import "./portafolio.css";
 import Obj_Portafolio from "../componentes_heredados/obj_portafolio";
 
 const obj_portafolio = [
