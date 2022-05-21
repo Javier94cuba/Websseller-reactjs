@@ -6,7 +6,7 @@ Desplegado en http://localhost:3000 con npm star, en el navegador .\
 
 - El sitio se encuentra en desarrollo..
 
-Pasos ya realizado en la pagina principal.
+Pasos ya realizado en la pagina principal.</br>
 -Creado los componentes separados por los div principales.
 -Css estilizado y separado por componentes.
 -Uso de props.
